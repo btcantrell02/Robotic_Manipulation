@@ -33,12 +33,21 @@ This project focuses on developing a reinforcement learning (RL) algorithm to co
 `pip install stable-baselines3 pybullet`
 
 ### Usage
-1. Test the environment:
+1. Navigate to the project directory:
+`cd proj`
+
+2. Test the environment:
 `python test.py`
 
 You should see a robot and an object in the environment. Use the top 3 toolbar controls to manipulate the robot arm.
 
-2. Evaluate the model:
+3. Evaluate the model:
 `python evaluate.py`
 
 The success rate of the task will be displayed in the terminal
+
+### Notes
+Some models currently have bad pathing and may produce a warning when running. 
+
+### Contact
+For any questions, please contact btcantrell02@gmail.com
